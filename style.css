@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1,h2,h3,h4{
@@ -76,7 +76,13 @@ line-height: 28px;
   text-align: right;
 }
 .btn-block{
-    padding:0.6rem 11rem;
+    min-width:32rem;
+    background-color: #ffffff;
+    color:#000000;
+}
+.btn-block:hover{
+    background-color: #882DFF;
+    color:#ffffff;
 }
 .btn-login{
     margin-top:4rem;
@@ -87,6 +93,11 @@ line-height: 28px;
 }
 .login-body{
     padding-left:2rem;
+    background-color: #E5E5E5;
+}
+
+.signup-hero-img{
+    height:656px;
 }
 
 /* login page container*/

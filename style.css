@@ -13,8 +13,16 @@ font-size:50px;
 h2{
     font-size:32px;
 }
+li{
+    list-style:none;
+    font-weight:bold;
+}
 a{
     text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:#882DFF;
 }
 
 p{
@@ -144,4 +152,21 @@ text-align: center;
 }
 .content{
     text-align:center;
+}
+
+.sidebar{
+    min-width:20rem;
+    background-color: #F9F9F9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+}
+.container-sidebar{
+    margin:1rem;
+}
+
+.sidebar-menu{
+    margin-top:4rem;
 }

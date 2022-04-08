@@ -47,7 +47,7 @@ line-height: 28px;
     max-width:35rem;
     margin: 1.5rem auto;
     text-align: center;
-    
+
 }
 .bottom{
     text-align: center;
@@ -71,7 +71,7 @@ line-height: 28px;
     text-align:left;
 }
 .right{
-    text-align: justify; 
+    text-align: justify;
     justify-content: right;
   text-align: right;
 }
@@ -133,7 +133,7 @@ text-align: left;
 
 }
 .login-btns{
-    
+
 margin:4rem 2rem;
 text-align: center;
 
@@ -141,4 +141,7 @@ text-align: center;
 
 .vh-100{
     background-color: #D8D8D8;
+}
+.content{
+    text-align:center;
 }
